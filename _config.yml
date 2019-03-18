@@ -1,15 +1,15 @@
 # general configuration
-url: http://excentris.net
+url: ''
 baseurl: ''
 
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+  logo: "https://pbs.twimg.com/profile_images/939921578074214401/C7g-7_jp_400x400.jpg"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "Oli Leung"
   # tagline will appear under the title (optional)
-  tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
+  tagline: "JavaScript Developer"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
@@ -18,8 +18,9 @@ compass:
   # Tracking Code to that file.
   include_analytics: false
   # Twitter @username (as defined by the Twitter Card specs)
-  twitter: "compass"
-
+  email: oliver_leung@yahoo.com
+  location: Guildford, Surrey, UK
+  
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
