@@ -8,7 +8,7 @@ $background-color: #F1EED9;
 body {
 	font-family: 'Vollkorn', serif;
 	color: $text-color;
-	background-color: $background-color;
+	background-color: black;
 }
 
 header,
@@ -19,6 +19,9 @@ main {
 /*** wrapper div for both header and main ***/
 .wrapper {
 	margin-top: 10%;
+    background: rgba(245, 222, 179, 0.9);
+    padding: 20px;
+    border-radius: 15px;
 }
 
 /*** anchor tags ***/
@@ -147,4 +150,16 @@ footer {
 		margin-left: 54%;
 		padding: 0;
 	}
+}
+
+#background {
+	background: url(https://images.unsplash.com/photo-1483631224226-a219224bb76e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1034&q=80);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+    background-size: cover;
 }
