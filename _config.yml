@@ -18,7 +18,7 @@ compass:
   # Tracking Code to that file.
   include_analytics: false
   # Twitter @username (as defined by the Twitter Card specs)
-  email: oliver_leung@yahoo.com
+  email: hello@olileung.uk
   location: Guildford, Surrey, UK
   
 # exclude
