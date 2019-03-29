@@ -123,6 +123,14 @@ footer {
 	}
 }
 
+@media (max-width: 480px) {
+	/* wrapper stays 480px wide past 480px wide and is kept centered */
+	.wrapper {
+		margin-top: unset;
+		border-radius: unset;
+	}
+}
+
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
 	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
